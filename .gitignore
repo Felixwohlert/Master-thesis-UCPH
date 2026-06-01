@@ -1,0 +1,12 @@
+# Large geospatial data — keep out of git (4.7 GB each, exceeds GitHub's 100 MB limit)
+*.gpkg
+*.gml
+
+# Python / Numba caches
+__pycache__/
+*.pyc
+*.nbc
+*.nbi
+
+# OS junk
+.DS_Store
