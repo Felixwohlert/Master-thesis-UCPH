@@ -6,11 +6,9 @@ open economy, calibrated to the Danish economy in the 1992 steady state and used
 to study how regional house-price disparities shape the wealth distribution along
 a 1992–2070 transition path.
 
-> Math below is written in LaTeX and renders directly on GitHub.
-
 ---
 
-## Model at a glance
+## The model
 
 Households are finitely lived ($J = 49$ ages) and face idiosyncratic, persistent
 labor-productivity risk
@@ -109,7 +107,8 @@ It walks through, in order:
 5. Robustness checks and life-cycle appendices.
 
 > **Note on data:** the large geospatial file `DK_INSPIRE_BBR.gpkg` (≈4.7 GB) used for
-> the regional map is intentionally excluded from the repository via `.gitignore`.
+> the regional map in Figure 2.2 is intentionally excluded from the repository via `.gitignore`. The data is available on:
+[`https://datafordeler.dk/dataoversigt/`](https://datafordeler.dk/dataoversigt/)
 
 ---
 
