@@ -42,7 +42,7 @@ $$\begin{pmatrix} \tilde q^{\,u}_t\big(H^{u,hh}_t(q^u_t,q^r_t)\big) - q^u_t \\
 - **Steady state:** `find_ss_prices()` solves the price fixed point above.
 - **Transition & IRFs:** the dynamic equilibrium is solved along the DAG of blocks
   in [`blocks.py`](Code/Model/blocks.py); linearized impulse responses are built from
-  sequence-space (fake-news) Jacobians.
+  sequence-space Jacobians.
 
 The model is built on the [NumEconCopenhagen](https://github.com/NumEconCopenhagen)
 `EconModelClass` / `GEModelTools` framework.
